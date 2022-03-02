@@ -14,6 +14,7 @@ export default function HeroGrid(props: HeroListProps) {
       direction="row"
       justifyContent="center"
       alignItems="center"
+      rowSpacing={3}
     >
       {data ? data.map((hero: Hero) => (
         <Grid item xs={4}>
